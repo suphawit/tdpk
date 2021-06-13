@@ -1,0 +1,45 @@
+/* Override the slides background of carousel to white */
+/* TODO: Create a new file for override slides only */
+.slide {
+  background: #fff !important;
+}
+
+.carousel .control-dots .dot {
+  background: #0075ff !important;
+}
+
+/* TODO: change to style component */
+.landing-block {
+  min-height: 680px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* TODO: change to style component */
+.scroll-to-top {
+  animation: fadeIn 700ms ease-in-out 1s both;
+}
+
+/* TODO: refactor later */
+li.left-separate::before,
+span.left-separate::before {
+  content: '|';
+  color: rgba(156, 163, 175, 1);
+  padding: 0 0.5rem;
+}
+
+li.square-marker {
+  position: relative;
+  padding-left: 25px;
+}
+
+li.square-marker::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #8a69d4;
+}

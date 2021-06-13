@@ -1,0 +1,243 @@
+$base-height: 95px;
+
+.Menu {
+  &:hover {
+    background: red;
+  }
+
+  &__body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transition: all 0.3s ease-in;
+    z-index: 20;
+
+    .searchBox {
+      .searchForm {
+        .inputBox {
+          background: url('/ico/search.svg') no-repeat 18px/20px;
+          width: calc(100% - 80px);
+
+          @media (max-width: 1279px) {
+            background: url('/ico/search.svg') no-repeat 18px/17px;
+          }
+        }
+      }
+
+      .searchResult {
+        height: calc(100vh - 11rem);
+
+        &.scrolled {
+          height: calc(100vh - 9rem);
+        }
+
+        @media (max-width: 1279px) {
+          height: calc(100vh - 9rem);
+        }
+      }
+
+      &.scrolled {
+        top: 4rem;
+      }
+    }
+  }
+
+  &__scroll {
+    height: 4rem;
+    transition: height 0.3s ease-in;
+  }
+
+  &__button--scroll {
+    height: 2.5rem;
+    transition: height 0.3s ease-in;
+  }
+
+  &__subItem {
+    width: 303px;
+    line-height: 55px;
+    left: -40%;
+    top: $base-height;
+    transition: all 0.3s ease-in;
+
+    &__ul {
+      &__li {
+        padding: 0 15px;
+        position: relative;
+        background-color: white;
+        opacity: 0;
+        display: none;
+
+        &:hover {
+          font-weight: 700;
+          background-color: #00ff00;
+
+          .Menu__subItem__ul__li__ul__li {
+            display: block;
+            border: solid #e2e8f0;
+            border-width: 0 1px;
+          }
+
+          .subLvl2__dropdown {
+            transform-origin: top center;
+            animation-name: rotateX;
+            animation-duration: 300ms;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+
+            @for $i from 0 through 10 {
+              &-#{$i} {
+                animation-delay: $i * 60ms;
+              }
+            }
+          }
+          .subLvl2__dropdown-0 {
+            border-top: 1px #e2e8f0 solid;
+          }
+          .subLvl2__dropdown-last {
+            border-bottom: 1px #e2e8f0 solid;
+          }
+          @keyframes rotateX {
+            0% {
+              opacity: 0;
+              transform: rotateX(-90deg);
+            }
+            50% {
+              transform: rotateX(-20deg);
+            }
+            100% {
+              opacity: 1;
+              transform: rotateX(0deg);
+            }
+          }
+        }
+
+        &__ul {
+          position: absolute;
+          top: 0;
+          left: 302px;
+          width: 100%;
+
+          &__li {
+            background-color: #fff;
+            opacity: 0;
+            padding: 0 15px;
+            font-weight: 400;
+            display: none;
+
+            &:hover {
+              font-weight: 700;
+              background-color: #00ff00;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__subItem--scroll {
+    top: 79px;
+    transition: top 0.3s ease-in;
+  }
+
+  &__item {
+    padding: 0 2rem 0 2px;
+    height: $base-height;
+    justify-content: center;
+    align-items: center;
+
+    &:before,
+    &:after {
+      content: '';
+      top: 2.9rem;
+      right: 0.7rem;
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      background-color: #000;
+      display: inline-block;
+      transition: all 0.2s ease;
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      right: 0.3rem;
+      transform: rotate(-45deg);
+    }
+
+    &:hover {
+      &:before {
+        transform: rotate(-45deg);
+      }
+    }
+
+    &:hover {
+      &:after {
+        transform: rotate(45deg);
+      }
+    }
+
+    &:hover {
+      .Menu__item__span {
+        font-weight: 700;
+        border-bottom: 3px #00ff00 solid;
+      }
+
+      .Menu__subItem__ul__li {
+        font-weight: 100;
+        border: solid #e2e8f0;
+        border-width: 0 1px;
+        display: block;
+      }
+
+      .subLvl1__dropdown {
+        transform-origin: top center;
+        animation-name: rotateX;
+        animation-duration: 300ms;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+      }
+
+      @for $i from 0 through 10 {
+        .subLvl1__dropdown-#{$i} {
+          animation-delay: $i * 60ms;
+        }
+      }
+      .subLvl1__dropdown-0 {
+        border-top: 1px #e2e8f0 solid;
+      }
+      .subLvl1__dropdown-last {
+        border-bottom: 1px #e2e8f0 solid;
+      }
+      @keyframes rotateX {
+        0% {
+          opacity: 0;
+          transform: rotateX(-90deg);
+        }
+        50% {
+          transform: rotateX(-20deg);
+        }
+        100% {
+          opacity: 1;
+          transform: rotateX(0deg);
+        }
+      }
+    }
+
+    &__span {
+      justify-content: center;
+      align-items: center;
+      padding: 5px 0px;
+      border-bottom: 3px transparent solid;
+
+      &:before {
+        display: block;
+        content: attr(title);
+        font-weight: bold;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+      }
+    }
+  }
+}

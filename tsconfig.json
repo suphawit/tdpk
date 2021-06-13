@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@layouts": ["src/components/layouts"],
+      "@layouts/*": ["src/components/layouts/*"],
+      "@modules": ["./src/modules"],
+      "@modules/*": ["./src/modules/*"],
+      "@models": ["./src/models"],
+      "@models/*": ["./src/models/*"],
+      "@services": ["./src/services"],
+      "@services/*": ["./src/services/*"],
+      "@hooks": ["./src/hooks"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"],
+      "@libs": ["./src/libs"],
+      "@libs/*": ["./src/libs/*"],
+      "@queries": ["./src/queries"],
+      "@queries/*": ["./src/queries/*"],
+      "@resources": ["./src/resources"],
+      "@resources/*": ["./src/resources/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,21 @@
+.service-menities-gradient {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 144px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 80.73%
+  );
+}
+
+@media only screen and (max-width: 639px) {
+  .VenueDetails__max-6-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+  }
+}

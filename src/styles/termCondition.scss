@@ -1,0 +1,12 @@
+.termCondition .content {
+  ol {
+    list-style-type: decimal;
+    margin-left: 2rem;
+    &.lowerAlpha {
+      list-style-type: lower-alpha;
+    }
+    &.lowerRoman {
+      list-style-type: lower-roman;
+    }
+  }
+}

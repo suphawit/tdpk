@@ -1,0 +1,31 @@
+$lg: 1024px;
+$max-width: 1536px;
+
+$scoll-track: 15px;
+$padding-x: 48px;
+$lg-padding-x: 288px;
+$span-3-of-12: 0.23330555555; // including gap 1 rem
+$span-4-of-12: 0.30985359866; // including gap 1 rem
+$span-5-of-12: 0.40024561403; // including gap 2 rem
+$span-7-of-12: 0.57157017543; // including gap 2 rem
+$ratio-4-by-3: 0.75;
+
+.MainFeatureArticle {
+  &__main {
+    width: 100%;
+    height: calc((100vw - #{$padding-x}) * #{$ratio-4-by-3});
+    @media only screen and (min-width: $lg) {
+      height: calc(((100vw - #{$scoll-track} - #{$lg-padding-x}) * #{$span-7-of-12} * #{$ratio-4-by-3}));
+      max-height: calc(((#{$max-width} - #{$scoll-track} - #{$lg-padding-x}) * #{$span-7-of-12} * #{$ratio-4-by-3}));
+    }
+  }
+
+  &__sub {
+    width: 100%;
+    height: calc((100vw - #{$padding-x}) * #{$span-3-of-12} * #{$ratio-4-by-3});
+    @media only screen and (min-width: $lg) {
+      height: calc((100vw - #{$scoll-track} - #{$lg-padding-x}) * #{$span-5-of-12} * #{$span-4-of-12} * #{$ratio-4-by-3});
+      max-height: calc((#{$max-width} - #{$scoll-track} - #{$lg-padding-x}) * #{$span-5-of-12} * #{$span-4-of-12} * #{$ratio-4-by-3});
+    }
+  }
+}

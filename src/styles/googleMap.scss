@@ -1,0 +1,9 @@
+$lg: 1024px;
+
+.map {
+  height: 212px;
+
+  @media only screen and (min-width: $lg) {
+    height: 584px;
+  }
+}

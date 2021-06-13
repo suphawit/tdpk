@@ -1,0 +1,119 @@
+{
+  "About": {
+    "learnMore": "Learn more"
+  },
+  "Login": "Log in",
+  "search": "Search",
+  "others": "Others",
+  "th": "ไทย",
+  "anytime": "Anytime",
+
+  "article": {
+    "one": "Article",
+    "other": "Articles",
+    "descriptionTitle": "Insights for startup and tech entrepreneurs",
+    "description": "True Digital Park storyteller team offers you analysis and tips on current tech and startup trends from Thailand and Southeast Asia. Check out articles from True Digital Park and valuable insights for startups from the heart of the startup ecosystem in Thailand."
+  },
+
+  "newsAndPromotions": {
+    "other": "News and Promotions"
+  },
+
+  "oneStopServiceForStartups": {
+    "universalBanner": {
+      "header": "TDPK One Stop<br />Service for Startups"
+    },
+    "servicesInfo": {
+      "header": "TDPK One Stop<br /> Service for Startups",
+      "description": "<p>Startups and entrepreneurs can submit questions or tell us your problems in the form below, TDPK team will get answers back to you as soon as possible. If your unique problem/question needs to be discussed in detail, our team will co-ordinate with expert for date and time for your online or offline 1-on-1 consultation.</p><br /><p>Our services include consultations on government support, Intellectual Property (IP), BOI registration, Smart Visa, resources & tech talent, funding support, cloud service, connection to ecosystem partners, accounting, tax & law.</p>"
+    }
+  },
+
+  "startupSandbox": {
+    "startupList": {
+      "comingbutton": "This program is coming soon"
+    }
+  },
+
+  "contactForSpaces": {
+    "contactTDPK": "Feel free to contact us or visit",
+    "toCheckOut": "us to check out our ",
+    "spaces": "Spaces",
+    "addressLabel": "Address",
+    "address": "101 Sukhumvit Road, Bangkok 10260 Thailand",
+    "contactLabel": "Contacts",
+    "phoneNumber": "02 009 1101"
+  },
+
+  "contactUs": {
+    "socialHeader": "Socials"
+  },
+
+  "bookATour": {
+    "haveVisitorMore": "Have visitors more than",
+    "people": "people",
+    "specifyVisitor": "Specify the number of visitors"
+  },
+
+  "privacyPolicy": {
+    "header": "True Digital Park User Privacy Policy 1.0",
+    "purposeAndScope": {
+      "header": "1. Purpose and scope",
+      "description": "<p>&emsp;&emsp;True Digital Park Co., Ltd (“TDPK”) is committed to meet and uphold all obligations under the Personal Data Protection Act (2019), and this True Digital Park User Privacy Policy (“policy”) will provide a framework and elaborate upon the procedures users’ personal data will be stored and processed during and after the term of the contractual obligation in accordance to the purpose and scope of the company.</p><p>&emsp;&emsp;It applies to all processing of personal data of existing TDPK users, irrespective of whether the data is processed on non-TDPK equipment or by third parties. This should be read and comprehended by all related parties to ensure complete understanding of the procedures users’ personal data will be stored and processed.</p> <br/><p>&emsp;&emsp;For the cases of visitors and vendors, TDPK has separate sets of policy for these data subject.</p> <br/><ul class='indent-2'><li>‘Personal data’ means any information relating to an identifiable living individual who can be identified from that data or from that data and other data.</li><li>‘Processing’ means anything that is done with personal data, including collection, storage, use, disclosure and deletion.</li><li>‘User’ means all individuals who are staff of TDPK’s tenants or have received one of TDPK’s services</li></ul> <br/><p>&emsp;&emsp;This policy may be revised at any given time as notified to users through appropriate channels.</p>"
+    },
+    "policyMayBeRevised": {
+      "header": "2. Who have the right to process collected Personal Data?",
+      "description": "<p>&emsp;&emsp;TDPK acts as the data controller for all users, and therefore has the role and responsibility in processing and ensuring the security and privacy of all personal data in accordance to Personal Data Privacy Act (2019).</p> <br/><p>&emsp;&emsp;User data from registration and other sources will be used by employees of TDPK and other related third parties, as identified in Section 8, to carry out tasks as required by TDPK.</p>"
+    },
+    "whichPersonalDataCollected": {
+      "header": "3. Which Personal Data are being collected and stored?",
+      "description": "<p>&emsp;&emsp;TDPK stores the following users’ personal data:</p><ul class='dash'><li>Personal Details including but not limited to Name-Surname, Salutation, Contact Number, Email Address, Nationality, Date of Birth, Gender, Job Title, ID Card Number, ID Photo</li><li>Emergency Contact Information</li><li>Other personal data from TDPK’s registration page</li><li>Membership and related product/service payment data</li><li>Data log related to TDPK service usage</li><li>Data log from TDPK’s infrastructure technological (IT) system, including but not limited to CCTV, access control</li></ul> <br /><p>&emsp;&emsp;Apart from this, TDPK may also stores and processes sensitive data, including but not limited to:</p><ul class='dash'><li>Racial or ethnic origin, political opinions, religious or philosophical beliefs</li><li>Facial Recognition Data</li></ul>"
+    },
+    "howTDPKStoreData": {
+      "header": "4. How does TDPK store your Personal Data?",
+      "description": "<p>&emsp;&emsp;In general, TDPK will directly collect and store users’ personal data through the registration process. However, TDPK may collect additional data through third parties, including TDPK’s tenants and other related organizations in the public and private sector. TDPK will request for consent from users and inform detail regarding other data collection channels within 30 days of data collection."
+    },
+    "howTDPKUseData": {
+      "header": "5. How does TDPK use your Personal Data?",
+      "description": "<p>&emsp;&emsp;TDPK uses personal data to carry out tasks in accordance to TDPK’s scope and purpose, including, but not limited to:</p><ul class='dash'><li>Providing services to users where personal data, or access to TDPK premise, is required for the provision of the selected service</li><li>Providing additional services to users, including but not limited to, seminars, consultations</li><li>Other processes to increase the convenience and accommodation to users, including but not limited to IT services, meeting rooms</li><li>Improving the experience of services provided, through behavioral studies or customer satisfaction survey</li><li>Ensuring the security of the premise, with the usage of technological devices such as CCTV</li><li>Analyzing and profiling aggregated data to improve and understanding of users’ behavior and, as a result, improve TDPK’s service and customer relation</li><li>Contacting users to relay questions and improve understanding of customer, to help uplift services further</li><li>Supporting marketing and communication purposes, where TDPK may reach out to communicate news and promotional offers through emails and other social media, and review the effectiveness of such communication</li></ul> <br /><p>&emsp;&emsp;TDPK has the following legal basis to store and process users’ personal data. Not all users’ personal data will be applicable to every legal bases stated below, and may be based upon one single or a combination of several legal bases.</p><br/><ol><li><p>Contract</p><p>TDPK is obligated to process personal data to carry out the responsibilities committed in accordance to the contractual requirement. These required personal data make up most of the data stated in Section 3. Also, to carry out these responsibilities, users’ personal data must be processed by vendors and other third-party organizations to carry out the required tasks.</p></li><li><p>Legal Obligation</p><p>TDPK is obligated to process the personal data in accordance to any legal requirement, including but not limited to the monitoring and verification of personal data by governmental bodies.</p></li><li><p>Legitimate Interests</p><p>TDPK is obligated to process data in accordance to the rules and regulations of TDPK – with emphasis on data usage for security reasons.</p></li><li><p>Consent</p><p>In some cases, TDPK will request the consent of TDPK users to process personal data, including, but not limited to, customer satisfaction survey.</p></li></ol> <br /><p>&emsp;&emsp;TDPK will process users’ personal data in accordance to the stated legal bases, or related legal bases that do not contradict the scope and purpose of TDPK. If there came upon a case where personal data were to be processed using a legal basis that has not been stated above, TDPK will ask for a new consent for usage of personal data in this additional legal basis.</p> <br /><p>&emsp;&emsp;In the case where users refuse to provide personal data, TDPK will not be able to provide the contractual obligated services. In the cases where users are still able to receive services provided by TDPK, users may experience a limited scope of services as TDPK has not received the necessary consent to provide the full scope of the service.</p>"
+    },
+    "sensitiveData": {
+      "header": "6. Sensitive Data",
+      "description": "<p>&emsp;&emsp;Sensitive data includes, but not limited to:</p><ol><li><p>Racial or ethnic origin, political opinions, religious or philosophical beliefs</p><p>TDPK will process users’ personal data related to racial or ethnic origin, political opinions, religious or philosophical beliefs only in the cases where explicit consent has been given, including the cases for the legal basis of legal obligation and legal claim. For the specified cases, TDPK will ensure that appropriate personal data policy is applied.</p></li><li><p>Facial Recognition Data</p><p>TDPK will process users’ biometric data only in the cases where explicit consent has been given, including the cases for the legal basis of legal obligation and legal claim. For the specified cases, TDPK will ensure that appropriate personal data policy is applied.</p></li></ol><p>&emsp;&emsp;TDPK uses sensitive data to carry out tasks in accordance to TDPK’s scope and purpose, including, but not limited to:</p><ul class='dash'><li>Processes to increase the convenience and accommodation to users, including but not limited to IT services, meeting rooms</li><li>Improving the experience of services provided, through behavioral studies or customer satisfaction survey</li><li>Ensuring the security of the premise, with the usage of technological devices such as CCTV</li><li>Analyzing and profiling aggregated data to improve and understanding of users’ behavior and, as a result, improve TDPK’s service and customer relation</li></ul>"
+    },
+    "cookies": {
+      "header": "7. Cookie Policy",
+      "description": "<p>&emsp;&emsp;TDPK uses cookie to help improve the experience users receive within our website and for all third parties to improve the advertorial material shown to users on our and others’ websites. For more information, please see TDPK’s Cookie Policy.</p>"
+    },
+    "usageOfPersonalDataWithExtThird": {
+      "header": "8. Usage of Personal Data with External Third-party Organization",
+      "description": "<p>&emsp;&emsp;TDPK may be required to pass on personal data to third-party organizations and for them to process personal data, in accordance with contract or the legal obligation of TDPK. This includes:</p><br /><ul class='dash'><li>Parent or sister companies which has a separate legal entity</li><li>External companies providing services to TDPK</li><li>External companies providing support and sponsorship to TDPK</li><li>Employer or Agencies</li><li>Governmental bodies</li></ul> <br /><p>&emsp;&emsp;For the case where personal data is being passed on the third-party organizations, TDPK will ensure that minimum amount of personal data is being sent and consider anonymization and pseudonymization techniques for greater security. Nevertheless, third-party organizations who will process users’ personal data for TDPK will be required to have an appropriate privacy policy and TDPK does not permit these third-party organization to use the users’ personal data in a way that diverge from the agreed scope and purpose.</p>"
+    },
+    "transferDataToForeign": {
+      "header": "9. Transferring Personal Data to Foreign Countries",
+      "description": "<p>&emsp;&emsp;TDPK may be required to pass on personal data to foreign countries, including, but not limited to, the case of users being residents of foreign country or a related third-party organization in situated in a foreign country. For these cases, TDPK will pass on users’ personal data only when these requirements have been met. This includes:</p><ul class='dash'><li>Receiving foreign country has a substantial personal data regulation in place</li><li>Receiving organization has a substantial privacy policy in place and certified by the Personal Data Committee</li><li>Receiving organization is obligated to follow a substantial privacy policy with a sufficient remedial measures in accordance to the procedures identified by the Personal Data Committee (including, but not limited to, standard contract, vendor process agreement)</li><li>A necessary task to exercise a legal rights</li><li>Consent has been received from appropriate individuals agreeing to the pass on of users’ personal data to a foreign country which does not have a substantial privacy policy</li><li>A necessary task to carry out contractual agreements of the users</li><li>A necessary task to carry out under contractual agreement between two entities for the benefit of the users</li><li>To ensure the safety or limit further damage to an individual’s health who cannot give consent at the current time</li><li>A necessary task for the good of the public</li></ul>"
+    },
+    "securityMeasures": {
+      "header": "10. Security Measures for Personal Data Protection",
+      "description": "<p>&emsp;&emsp;TDPK has implemented security measures to ensure the security of users’ personal data. Security measures implemented include:</p><ul class='dash'><li>Limiting the access to our premise and access to TDPK’s internal system – only users who have been deemed appropriate are given the permission to access our system</li><li>Utilizing technological services to increase security (e.g. firewall, password strength review)</li><li>Reviewing security level of the internal system</li><li>Implementing best practice procedures in ensuring the security and the upkeep of the system</li><li>Limiting the access to each system to only users who critically require the knowledge of personal data for the functioning of their scope of work</li><li>Ensuring that all third-party organizations must carry out the processing of personal data in accordance with TDPK’s policy and agrees to ensure the security of users’ personal data</li></ul>"
+    },
+    "timePeriodOfData": {
+      "header": "11. Time Period of Personal Data Storage",
+      "description": "<p>&emsp;&emsp;TDPK will store users’ personal data throughout for the appropriate period in accordance to TDPK’s scope and purpose, or to the related laws and regulations. The period will stretch no more than required and usually does not extend beyond 1 year from the expiration of the contractual obligation.</p>"
+    },
+    "userPersonalData": {
+      "header": "12. Users’ Personal Data Rights",
+      "description": "<p>&emsp;&emsp;TDPK has implemented security measures to ensure the security of users’ personal data. Security measures implemented include:</p><ul class='dash'><li>Limiting the access to our premise and access to TDPK’s internal system – only users who have been deemed appropriate are given the permission to access our system</li><li>Utilizing technological services to increase security (e.g. firewall, password strength review)</li><li>Reviewing security level of the internal system</li><li>Implementing best practice procedures in ensuring the security and the upkeep of the system</li><li>Limiting the access to each system to only users who critically require the knowledge of personal data for the functioning of their scope of work</li><li>Ensuring that all third-party organizations must carry out the processing of personal data in accordance with TDPK’s policy and agrees to ensure the security of users’ personal data</li></ul><p>&emsp;&emsp;Your personal data rights include:</p><ul class='dash'><li><p>Right to Withdraw Consent</p><ul><li>You have right to withdraw your consent at any point in time after the consent has been given, with the exception for the cases where there is a right limitation due to legal or contractual requirements</li><li>You have the right to withdraw your consent to data processing activities throughout the period where your personal data is retained by TDPK</li><li>When your consent has been withdrawn, TDPK will not be able to provide services at its full scope</li></ul></li><li>Right of Access – you have the right to request a copy of all your personal data and assess if the company is processing your personal data in accordance with the law or not</li><li><p>Right to Data Portability – for the case where company has an automated platform allowing you to access to your personal data automatically:</p><ul><li>You have the right to ask for your personal data to be transferred automatically to other organizations</li>You have the right to ask for your personal data to be directly transferred to other organization, with the exceptions cases where there is a technological limitation</li></ul></li><li><p>Right to Object – you have the right to object any data process activity of your personal data for the legal bases, including:</p><ul><li>Public Task or Legitimate Interest</li><li>Direct Marketing Purposes</li></ul></li><li><p>Right to Erasure – you have the right to request data deletion or anonymization, in accordance to the following cases:</p><ul><li>Expiration of data processing required terms</li><li>Consent has been withheld</li><li>Objections raised on the data processing activity</li><li>Processing activity is not in accordance to the law</li></ul></li><li><p>Right to restrict processing – you have the rights to restrict any data processing activities, in accordance to the following cases:</p><ul><li>During the process of personal data assessment as requested</li><li>For cases related to personal data which has initially requested for deletion and erasure, but was followed by additional request of processing restriction instead</li><li>For cases when the data processing terms have passed but you have requested for processing restriction due to legal reasons</li><li>During the process of personal data processing objection verification</li></ul></li><li>Right to Rectification – You have the right to edit your personal data to be correct and concurrent to the present. If any mistake was detected, the company may not edit this themselves.</li><li>Right to Complain – You have the right to issue a complaint for specified cases</li></ul><p>&emsp;&emsp;In the cases where TDPK may not be able to carry out and exercise your rights, including, but not limited to, the cases where a legal process is taking place, you will continue to have the rights to retract your consent though email contact to all related parties. TDPK will be required to terminate all processes as soon as possible. However, the retraction only be carried out to all data processing after the retraction. Any data process activity carried out prior to the retraction will not be reversed.</p><p>&emsp;&emsp;Please be informed that TDPK does record all requests to ensure all issues are resolved. For any queries regarding your personal data protection and rights, more details are available at:</p><p>&emsp;&emsp;In the case where you have the intention to exercise your personal data protection rights, please <a href='https://privacyportal-apac.onetrust.com/webform/abe5c0b3-4603-4e8b-98f8-dd3b872352a7/3be8f499-4de5-4991-b18c-022884267bf5' target='_blank'>click here</a> to submit form. TDPK will process this request in a secure and timely manner.</p>"
+    },
+    "contactUs": {
+      "header": "13. Contact Us",
+      "description": "<p>&emsp;&emsp;If you have any queries or request regarding your personal data rights, please contact TDPK through one of the following channels:</p><p>&emsp;&emsp;Address: True Digital Park, 101 Sukhumvit Rd, Bang Chak, Phra Khanong, Bangkok 10260</p><p>&emsp;&emsp;Contact Information: <a href='https://www.truedigitalpark.com/contact_us' target='_blank'>https://www.truedigitalpark.com/contact_us</a></p>"
+    },
+    "policyRevision": {
+      "header": "14. Policy Revision",
+      "description": "<p>&emsp;&emsp;This policy has been last revised on May 2020.</p><p>&emsp;&emsp;TDPK holds the rights to review and edit the policy as the company sees fit. Any revision made will be notified to all related parties regarding the changes in the procedure of data processing activity.</p>"
+    }
+  },
+
+  "scrollToTop": "Back to top"
+}

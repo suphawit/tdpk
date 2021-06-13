@@ -1,0 +1,53 @@
+{
+  "name": "tdpk-client",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@apollo/react-hooks": "^4.0.0",
+    "@chakra-ui/icons": "^1.0.0",
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@mobiscroll/cli": "^1.6.0",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "autoprefixer": "^10.2.4",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.16.1",
+    "framer-motion": "^2.9.4",
+    "graphql": "^15.5.0",
+    "luxon": "^1.27.0",
+    "next": "latest",
+    "next-translate": "^1.0.4",
+    "next-with-apollo": "^5.1.1",
+    "postcss": "^8.2.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
+    "react-icons": "^4.1.0",
+    "react-responsive-carousel": "^3.2.11",
+    "react-sanitized-html": "^2.0.0",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.28.1",
+    "sanitize-html": "^2.3.2",
+    "sass": "^1.32.8",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^14.14.21",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-slick": "^0.23.4",
+    "prettier": "^2.2.1",
+    "tailwindcss-pseudo-elements": "^2.0.0",
+    "typescript": "^4.1.3"
+  }
+}

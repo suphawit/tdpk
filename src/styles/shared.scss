@@ -1,0 +1,121 @@
+.Background-gray {
+  background-color: #f6f7f8;
+}
+
+.UlBulletPoints-square-purple {
+  ul {
+    list-style-image: url('/ico/gi-plain-square.svg');
+  }
+}
+
+.Paragraph-no-bottom-margin {
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+#calendar-container {
+  background-color: white;
+  padding: 1.5rem;
+  border: 1px solid #e0e5eb;
+  position: absolute;
+  top: 50%;
+  display: none;
+  z-index: 1;
+
+  @media screen and (min-width: 1024px) and (max-width: 1599px) {
+    padding: 1rem;
+  }
+  @media screen and (max-width: 533px) {
+    padding: 1rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    &__indicator {
+      font-weight: 500;
+    }
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0 12px;
+
+    &--right {
+      transform: rotate(-45deg);
+    }
+
+    &--left {
+      transform: rotate(135deg);
+    }
+  }
+
+  .close {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+
+  &.showed {
+    display: block;
+  }
+
+  .indicator {
+    display: inline;
+    text-align: center;
+  }
+
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 2px solid #e0e5eb;
+    border-bottom: 0;
+    border-left: 0;
+
+    &__item {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 15px;
+      font-weight: 500;
+      border-left: 2px solid #e0e5eb;
+      border-bottom: 2px solid #e0e5eb;
+
+      @media screen and (min-width: 1024px) and (max-width: 1599px) {
+        font-size: 0.8rem;
+        padding: 7px;
+      }
+      @media screen and (max-width: 533px) {
+        font-size: 0.8rem;
+        padding: 2px;
+      }
+
+      &.enabled {
+        cursor: pointer;
+
+        .appointDay {
+          font-size: 8px;
+          color: #8a69d4;
+        }
+      }
+
+      &--header {
+        font-weight: 600;
+      }
+
+      &--today {
+        border: 1px solid #8a69d4;
+      }
+
+      &--prev-date {
+        color: #e0e5eb;
+      }
+    }
+  }
+}

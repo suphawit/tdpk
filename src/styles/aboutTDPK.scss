@@ -1,0 +1,60 @@
+.AboutTDPK {
+  &__title {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0px;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 3.5rem;
+      @media only screen and (min-width: 1024px) {
+        font-size: 28px;
+      }
+    }
+  }
+
+  &__image-header {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 20px;
+      margin: 0px;
+      @media only screen and (min-width: 1024px) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  &__card {
+    &-header {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0px;
+        font-weight: 900;
+        font-size: 22px;
+        @media only screen and (min-width: 1024px) {
+          font-size: 36px;
+        }
+      }
+    }
+    &-description {
+      font-size: 18px;
+    }
+  }
+
+  &__paragraph--no-margin {
+    p {
+      margin: 0px;
+    }
+  }
+}

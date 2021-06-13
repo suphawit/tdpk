@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider-item {
+  @apply outline-none w-24 lg:w-48 !important;
+}
+
+.chakra-slider__thumb {
+  @apply focus:shadow-none !important;
+}

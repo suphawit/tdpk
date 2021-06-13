@@ -1,0 +1,36 @@
+.privacyPolicy .content {
+  a {
+    color: #008000;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    &.dash {
+      list-style-type: '-';
+      margin-left: 1rem;
+      li {
+        padding-left: 1rem;
+      }
+    }
+    &.indent-2 {
+      margin-left: 6rem;
+    }
+  }
+  ol {
+    counter-reset: list;
+    margin-left: 3rem;
+    > li {
+      list-style: none;
+      position: relative;
+      &:before{
+        content:  " ("counter(list) ") ";
+        counter-increment: list;
+        left: -40px;
+        padding-right: 1rem;
+        position: absolute;
+        text-align: right;
+        width: 40px;
+      }
+    }
+  }
+}
